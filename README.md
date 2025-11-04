@@ -513,6 +513,7 @@ curl -X GET http://localhost:3000/api/v1/enquiries/my-leads \
   name: String (required),
   email: String (required, unique),
   password: String (required, hashed),
+  refreshToken: String,
   createdAt: Date,
   updatedAt: Date
 }
