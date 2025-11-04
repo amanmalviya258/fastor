@@ -1,0 +1,44 @@
+{
+  "name": "bookreviewmangement",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/amanmalviya258/fastor#readme",
+  "bugs": {
+    "url": "https://github.com/amanmalviya258/fastor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanmalviya258/fastor.git"
+  },
+  "license": "ISC",
+  "author": "aman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotenv -e .env.test -- jest --detectOpenHandles --forceExit",
+    "test:watch": "dotenv -e .env.test -- jest --watch",
+    "test:coverage": "dotenv -e .env.test -- jest --coverage",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "node-email-verifier": "^2.0.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^29.7.0",
+    "dotenv-cli": "^7.3.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
