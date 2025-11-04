@@ -2,6 +2,30 @@
 
 Base URL: `http://localhost:3000/api/v1`
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amanmalviya258/fastor.git
+   cd fastor
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Configure environment variables:
+   - Copy `.env.test` to `.env` and update values as needed:
+     ```bash
+     cp .env.test .env
+     # Edit .env with your database URI, secrets, etc.
+     ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
 ## Authentication
 Most endpoints require JWT authentication. Include the token in either:
 - Cookie: `accessToken`
